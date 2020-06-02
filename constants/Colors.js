@@ -1,0 +1,26 @@
+const tintColor = '#2f95dc';
+
+export default {
+  tintColor,
+  primary: '#ffce00',
+  progressBar1: "#26d07c",
+  progressBar2: "#26d0a6",
+  progressBar3: "#8a2be2",
+  progressBarComplete: "#26a6d0",
+  background: '#ededed',
+  white: '#fff',
+  subtitle: '#7e7e7e',
+  placeholder: '#5c5c5c',
+  divisor: '#c7c7c7',
+  title: '#111111',
+  tabIconDefault: '#ccc',
+  gray: '#b1b1b1',
+  tabIconSelected: tintColor,
+  tabBar: '#fefefe',
+  errorBackground: 'red',
+  errorText: '#fff',
+  warningBackground: '#EAEB5E',
+  warningText: '#666804',
+  noticeBackground: tintColor,
+  noticeText: '#fff',
+};

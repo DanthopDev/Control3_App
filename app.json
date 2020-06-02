@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Control3",
+    "slug": "control3",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.9.16",
+    "primaryColor": "#ffce00",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ededed"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "notification": {
+      "icon": "./assets/images/notificacion1.png",
+      "color": "#ffce00",
+      "androidMode": "default"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#ededed",
+      "translucent": true
+    },
+    "android": {
+      "versionCode": 16,
+      "googleServicesFile": "./google-services.json",
+      "package": "com.Danthop.control3",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive.png",
+        "backgroundColor": "#111111"
+      }
+    },
+    "ios": {
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Danthop.control3",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta aplicación necesita acceder a la cámara para tomar la foto asociada a la asistencia de los obreros.",
+        "NSPhotoLibraryUsageDescription": "Esta aplicación necesita acceder a la galeria para guardar la foto asociada a la asistencia de los obreros."
+      }
+    },
+    "description": "primer control de cambios"
+  }
+}
